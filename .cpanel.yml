@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/shreecom/public_html/Devops/Vipul
+    - /bin/cp -css * $DEPLOYPATH
+    - /bin/cp -js * $DEPLOYPATH
+    - /bin/cp -py * $DEPLOYPATH
+    /bin/cp -html * $DEPLOYPATH
